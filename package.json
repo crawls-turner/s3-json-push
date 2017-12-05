@@ -1,0 +1,19 @@
+{
+  "name": "s3-json-push",
+  "version": "0.0.1",
+  "description": "Push to S3 using AWS cli",
+  "main": "index.js",
+  "scripts": {
+    "deploy": "node ./index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "S3",
+    "AWS"
+  ],
+  "author": "Charles Rawls",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.163.0"
+  }
+}
